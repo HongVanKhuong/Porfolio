@@ -1,0 +1,17 @@
+HƯỚNG DẪN THÊM ẢNH
+
+1) Ảnh chân dung:  img/avatar.jpg  (tỉ lệ dọc 4:5, ví dụ 800x1000px)
+
+2) Ảnh chứng chỉ (thư mục img/chung-chi/):
+   gemini-educator-level-2.jpg
+   gemini-educator.jpg
+   ngoai-ngu-b1.jpg
+
+3) Ảnh giải thưởng (thư mục img/giai-thuong/):
+   scratch-2023.jpg
+   gv-thoi-ai-2025.jpg
+   xu-ly-tinh-huong-su-pham-2025.jpg
+   giay-khen-nvsp-2025.jpg
+
+Nếu ảnh là .png hoặc tên khác: mở index.html, tìm thuộc tính data-img
+của mục đó và sửa đường dẫn cho khớp.
