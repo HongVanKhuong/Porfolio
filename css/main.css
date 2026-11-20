@@ -565,25 +565,38 @@ button {
   background: var(--ink);
 }
 
-/* ---------- Dự án ---------- */
+
+/* ---------- Danh sách dự án nghiên cứu ---------- */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  min-width: 0;
+}
+
+/* ---------- Thẻ dự án ---------- */
 .project {
+  min-width: 0;
   padding: 32px;
   background: var(--white);
   border: 1px solid var(--line);
   border-left: 6px solid var(--ink);
   border-radius: var(--radius);
 }
+
 .project__meta {
   color: var(--crimson);
   font-weight: 600;
   font-size: 0.95rem;
   margin-bottom: 10px;
 }
+
 .project h3 {
   font-size: clamp(1.15rem, 2.4vw, 1.4rem);
   line-height: 1.45;
   margin-bottom: 14px;
 }
+
 .project p:last-child {
   color: var(--slate);
 }
